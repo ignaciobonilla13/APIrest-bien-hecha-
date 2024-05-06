@@ -1,0 +1,24 @@
+{
+    "Autos": [
+        {
+            "id": 1,
+            "nombre": "Polo",
+            "marca": "Volkswagen",
+            "año": 1990,
+            "precio": 21000
+        },
+        {
+            "id": 2,
+            "marca": "Chevrolet",
+            "año": 1995,
+            "precio": 18000
+        },
+        {
+            "id": 3,
+            "nombre": "nissan",
+            "marca": "GTR",
+            "año": 2016,
+            "precio": 21000
+        }
+    ]
+}

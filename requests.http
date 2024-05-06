@@ -1,0 +1,35 @@
+GET http://localhost:3000/Autos HTTP/1.1
+
+###
+
+GET http://localhost:3000/Autos/1 HTTP/1.1
+
+### 
+
+POST http://localhost:3000/Autos HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "nombre": "Vento",
+    "marca": "Corcho",
+     "año": 2012,
+     "precio": 21000
+    
+}
+
+###
+PUT http://localhost:3000/Autos/3 HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "nombre": "nissan",
+    "marca": "GTR",
+    "año": 2016,
+    "precio": 21000
+}
+
+###
+DELETE http://localhost:3000/Autos/3 HTTP/1.1
+
